@@ -82,6 +82,7 @@ width: 30px;
 cursor: pointer;
 border-radius: 3px;
 padding: 3px;
+filter: invert(1);
 }
 
 

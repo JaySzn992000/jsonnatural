@@ -151,9 +151,8 @@ className="review_icon"
 </section>
 </div>
 
-<div className="header_Filter">
-{showFilters && <Filterheader />}
-</div>
+<Filterheader></Filterheader>
+
 </div>
 
 );

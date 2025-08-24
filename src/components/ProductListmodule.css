@@ -125,6 +125,7 @@ border-radius: 17px;
 
 
 .fa-heart_products {
+ 
 position: absolute;
 right: 0px;
 z-index: 999;
@@ -133,15 +134,10 @@ font-size: 1.2rem;
 margin-right: .3em;
 margin-top: .2em;
 background-color: rgb(255, 255, 255);
-color: rgb(0, 0, 0);
-cursor: pointer;
-}
-
-
-.fa-heart_products {
 color: #DCDCDC;
-background-color: #FFFFFF;
 transition: background-color 0.3s ease;
+cursor: pointer;
+ 
 }
 
 

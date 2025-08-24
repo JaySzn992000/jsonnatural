@@ -1730,8 +1730,8 @@ setInterval(() => {
 
 
 const razorpayInstance = new Razorpay({
-key_id: "rzp_live_Zm7uF61IDcY0t9", //  Razorpay key_id
-key_secret: "FgZimfWqOEOLs4ejcIZHO7yc", // Razorpay key_secret
+key_id: "rzp_live_HQaw8Iffv44LKF", //  Razorpay key_id
+key_secret: "B8UdFDiIjogxokdY1Nz0yk8R", // Razorpay key_secret
 });
 
 app.post("/create-order", async (req, res) => {

@@ -75,6 +75,8 @@ return (
 
 <div className="headerFlex">
 
+<section className="headerFlx_left">
+
 <img
 className="ImgHeader"
 loading="lazy"
@@ -94,6 +96,9 @@ src={headeronlinepayment} alt="logo"></img>
 className="ImgHeader"
 loading="lazy"
 src={headerdelivery} alt="logo"></img>
+
+    
+</section>
 
 </div>
 

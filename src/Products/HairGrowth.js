@@ -181,10 +181,7 @@ src="https://cdn-icons-png.flaticon.com/128/15853/15853959.png" alt=""></img>
 </section>
 </div>
 
-<div className="header_Filter">
-{" "}
-{showFilters && <Filterheader></Filterheader>}{" "}
-</div>
+<Filterheader></Filterheader>
 
 </div>
 

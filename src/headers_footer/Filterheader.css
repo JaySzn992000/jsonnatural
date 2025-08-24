@@ -125,13 +125,12 @@ padding: 67px 37px 207px 57px;
 .headerFilter .header_dvLogo {
 width: 133px;
 margin-top: 1.3em;
-margin-right: -2.3em;
+margin-right: -1.5em;
 margin-left: -1.7em;
 }
 
 .headerFilter ul li {
 font-size: 0.8rem;
-width: 117px;
 }
 
 .headerFilter ul h3 {

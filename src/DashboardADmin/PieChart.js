@@ -71,12 +71,17 @@ return `₹ ${value.toLocaleString()}`;
 }
 }
 },
+
 legend: {
-position: 'right',
-formatter: function(seriesName, opts) {
-return `${seriesName}: ₹ ${opts.w.globals.series[opts.seriesIndex].toLocaleString()}`;
-}
+  position: 'right',
+  formatter: function(seriesName, opts) {
+    const val = opts.w.globals.series[opts.seriesIndex];
+    return `${seriesName}: ₹ ${Number(val) % 1 === 0 
+      ? Number(val).toLocaleString(undefined, { maximumFractionDigits: 0 }) 
+      : val.toLocaleString()}`;
+  }
 },
+
 responsive: [{
 breakpoint: 480,
 options: {

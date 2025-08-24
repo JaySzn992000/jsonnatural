@@ -151,7 +151,6 @@ className="review_icon"
 </section>
 </div>
 
-<Filterheader></Filterheader>
 
 </div>
 

@@ -193,10 +193,7 @@ alt=""
 </section>
 </div>
 
-<div className="header_Filter">
-{" "}
-{showFilters && <Filterheader></Filterheader>}{" "}
-</div>
+<Filterheader></Filterheader>
 
 </div>
 

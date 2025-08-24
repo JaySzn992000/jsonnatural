@@ -151,6 +151,11 @@ justify-content: center;
 gap: 0.3em;
 }
 
+.product_cards_wrapper .product_image{
+    width: 100%;
+}
+
+
 .single_product_card {
 width: 48%;
 }
@@ -169,7 +174,10 @@ font-size: .8rem;
 
 
 .wishlist_icon{
-    font-size: 1rem;
+padding: 0px;
+font-size: 1.2rem;
+margin-right: .7em;
+margin-top: 0em;
 }
 
 }

@@ -130,7 +130,7 @@ amount: totalAmount,
 const { id: orderId } = response.data;
 
 const options = {
-key: "rzp_live_HQaw8Iffv44LKF",
+key: "rzp_live_Kh5Fut1EpwDwF5",
 amount: totalAmount * 100,
 currency: "INR",
 name: "Secure Payment",

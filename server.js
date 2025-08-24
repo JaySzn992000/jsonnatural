@@ -366,7 +366,7 @@ WHERE LOWER(img) = LOWER($1)
 `;
 
 try {
-const result = await pool.query(exactMatchQuery, ['Chilli']);
+const result = await pool.query(exactMatchQuery, ['KasturiHaldi']);
 res.json(result.rows);
 } catch (err) {
 console.error("Error fetching data:", err.message);
@@ -437,7 +437,7 @@ WHERE LOWER(img) = LOWER($1)
 `;
 
 try {
-const result = await pool.query(exactMatchQuery, ['Carrot']);
+const result = await pool.query(exactMatchQuery, ['BananaPowder']);
 res.json(result.rows);
 } catch (err) {
 console.error("Error fetching data:", err.message);
@@ -509,7 +509,7 @@ WHERE LOWER(img) = LOWER($1)
 `;
 
 try {
-const result = await pool.query(exactMatchQuery, ['Lemon']);
+const result = await pool.query(exactMatchQuery, ['LicoricePowder']);
 res.json(result.rows);
 } catch (err) {
 console.error("Error fetching data:", err.message);
@@ -545,7 +545,7 @@ WHERE LOWER(img) = LOWER($1)
 `;
 
 try {
-const result = await pool.query(exactMatchQuery, ['Bitter']);
+const result = await pool.query(exactMatchQuery, ['HairGrowth']);
 res.json(result.rows);
 } catch (err) {
 console.error("Error fetching data:", err.message);
@@ -580,7 +580,7 @@ WHERE LOWER(img) = LOWER($1)
 `;
 
 try {
-const result = await pool.query(exactMatchQuery, ['Garlic']);
+const result = await pool.query(exactMatchQuery, ['SandalwoodPowder']);
 res.json(result.rows);
 } catch (err) {
 console.error("Error fetching data:", err.message);
@@ -686,7 +686,7 @@ WHERE LOWER(img) = LOWER($1)
 `;
 
 try {
-const result = await pool.query(exactMatchQuery, ['Mixed']);
+const result = await pool.query(exactMatchQuery, ['BeetrootPowder']);
 res.json(result.rows);
 } catch (err) {
 console.error("Error fetching data:", err.message);

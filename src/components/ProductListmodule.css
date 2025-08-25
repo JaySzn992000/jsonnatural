@@ -177,7 +177,6 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .flex_productlist .produclist_divContainer {
-box-shadow: none;
 max-width: 100%;
 }
 
@@ -228,7 +227,6 @@ grid-template-columns: repeat(2, 1fr);
 
 
 .flex_productlist .produclist_divContainer {
-box-shadow: none;
 max-width: 100%;
 }
 
@@ -258,9 +256,8 @@ transform: translateX(30.3vw);
 position: relative;
 height: auto;
 margin-bottom: 2.1em;
-border-radius: 33px;
 border: 1px solid rgba(27, 6, 6, 0.055);
-box-shadow: 7px 12px 12px 5px rgba(19, 19, 19, 0.073);
+box-shadow: 0 0 4px rgba(0,0,0,0.2);
 }
  
 
@@ -270,3 +267,4 @@ margin: 0em 0em 0em 333px;
 }
 
 }
+
